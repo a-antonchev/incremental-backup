@@ -18,6 +18,6 @@ were deleted in the source directory are deleted, new files are added and the mo
 
 Only standard libraries are used for the python script, but just in case, the files are posted:
 
-requirements.txt (to create an environment on pip)
-requirements.yml (for conda)
+- requirements.txt (to create an environment on pip)
+- requirements.yml (for conda)
 
