@@ -112,7 +112,7 @@ logger.addHandler(console)
 logger.addHandler(file)
 
 if not os.path.ismount(mount_point):
-    logger.info('INFO: Mount point not exists, mounting.')
+    logger.info('Mount point not exists, mounting.')
     mount_dir(mount_command)
 
 pathlib.Path(backup_dir).mkdir(parents=True, exist_ok=True)
